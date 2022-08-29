@@ -90,7 +90,7 @@ private String sequence = "";
 }
 ```
 
-### Configuring resources via web.xml
+### Configuring resources via web.xml  http://www.oracle.com/webfolder/technetwork/jsc/xml/ns/index.html
 
 MolecularFaces tries to include as much resources (JavaScript, CSS, images) of the third-party plugins in its jar as possible and loads them when required. Alternatively, you can configure the URL of the resources (relative to the application's context root) via a `context-param` in your project's web.xml.
 
